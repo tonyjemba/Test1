@@ -6,7 +6,6 @@ defineProps({
 
 <template>
     <h1>Todo List</h1>
-
     <ul v-for="listItem in listItems" :key="listItem.id">
         <li>{{ listItem.value }}</li>
     </ul>
