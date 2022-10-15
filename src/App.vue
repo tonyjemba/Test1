@@ -22,19 +22,3 @@ const todoList = [
 
     <TodoListItems :list-items="todoList" />
 </template>
-
-<style scoped>
-.logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-}
-
-.logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-}
-
-.logo.vue:hover {
-    filter: drop-shadow(0 0 4em #42b883aa);
-}
-</style>
